@@ -1,4 +1,4 @@
-turn_count(board)
+def turn_count(board)
   count = 0
   board.each do |ele|
     if (ele == "X") || (ele == "O")
@@ -9,6 +9,6 @@ turn_count(board)
 end
 
 
-current_player()
+def current_player()
 
 end
